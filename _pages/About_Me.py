@@ -25,7 +25,7 @@ with left_column:
         "<br>"
         "<a href='https://www.linkedin.com/in/said-h-1956b0161/'><img src='https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png' width='40'></a>"
         "&nbsp;&nbsp;&nbsp;&nbsp;"
-        "<a href='https://github.com/Shirdarec'><img src='https://upload.wikimedia.org/wikipedia/commons/2/24/Github_logo_svg.svg' width='40'></a>"
+        "<a href='https://github.com/Shirdarec'><img src='https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg' width='40'></a>"
         "&nbsp;&nbsp;&nbsp;&nbsp;"
         "<a href='mailto:saidhem@student.matnat.uio.no'><img src='https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png' width='40'></a>"
         "</div>",

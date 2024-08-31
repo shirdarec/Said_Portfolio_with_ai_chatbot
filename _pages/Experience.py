@@ -19,7 +19,7 @@ Brief overview of my experience till date.
 Technologies Used
 --
 <b>Technologies Used</b><br>
-<!-- .slide: data-background-color="#283747" -->
+<!-- .slide: data-background-color="#bfc4c9"-->
 <div style='text-align: justify'>
 Geospatial Analysis,Time-Series Analysis, Energy Systems Knowledge, Data Visualization, Statistical Analysis, machine learning,Large Language Model (LLM), Python,JSON, geoJSON,Jupyter Notebook, Excel
 </div>
@@ -38,7 +38,7 @@ Geospatial Analysis,Time-Series Analysis, Energy Systems Knowledge, Data Visuali
 Technologies Used
 --
 <b>Technologies Used</b><br>
-<!-- .slide: data-background-color="#283747" -->
+<!-- .slide: data-background-color="#bfc4c9"-->
 <div style='text-align: justify'>
 Machine learning, Neural networks, python, LIME, teamwork, reporting
 
@@ -58,7 +58,7 @@ Machine learning, Neural networks, python, LIME, teamwork, reporting
 Technologies Used
 --
 <b>Technologies Used</b><br>
-<!-- .slide: data-background-color="#283747" -->
+<!-- .slide: data-background-color="#bfc4c9"-->
 <div style='text-align: justify'>
 Data Mining, Data Analytics, Langsmith, Langchain, Trubrics, Streamlit, Python/R, Data Visualization, Machine learning algorithms, Automation, AWS Bedrock, API.
 
@@ -68,12 +68,12 @@ Data Mining, Data Analytics, Langsmith, Langchain, Trubrics, Streamlit, Python/R
 st.title("Experience")
 currState = rs.slides(
     sample_markdown,
-    theme="dracula",
+    theme="",
     height=600,
     config={
         "transition": "slide",
-        "width": 1100,
-        "height": 1100,
+        "width": 400,
+        "height": 400,
         "center": True,
         "margin": 0.10,
         "scale_range": [0.1, 3.0],

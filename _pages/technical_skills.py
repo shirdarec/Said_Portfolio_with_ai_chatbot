@@ -45,8 +45,9 @@ with right_column:
         "Technical Writing",
     ]
     selected = pills("Select a category", skills)
-with left_column:
+
+"""with left_column:
     st.title("Description")
     for skill in description["skills"]:
         if selected==skill["name"]:
-            st.markdown(skill["description"])
+            st.markdown(skill["description"])"""

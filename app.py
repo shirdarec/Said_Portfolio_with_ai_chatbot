@@ -11,7 +11,7 @@ with st.sidebar:
     choose = option_menu(
         "Said Hemaz",
         [
-            "Lucy",
+            "PortfolioPal",
             "About Me",
             "Experience",
             "Technical Skills",
@@ -37,7 +37,7 @@ with st.sidebar:
         menu_icon="mortarboard",
         default_index=0,
         styles={
-            "container": {"padding": "0!important", "background-color": "#0D1117"},
+            "container": {"padding": "0!important", "background-color": "#FFFFFF"},
             "icon": {"color": "darkorange", "font-size": "20px"},
             "nav-link": {
                 "font-size": "17px",
@@ -52,7 +52,7 @@ with st.sidebar:
     "<div style='text-align: center;'>"
     "<a href='https://www.linkedin.com/in/said-h-1956b0161/'><img src='https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png' width='40'></a>"
     "&nbsp;&nbsp;&nbsp;&nbsp;"
-    "<a href='https://github.com/shirdarec'><img src='https://upload.wikimedia.org/wikipedia/commons/2/24/Github_logo_svg.svg' width='40'></a>"
+    "<a href='https://github.com/shirdarec'><img src='https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg' width='40'></a>"
     "&nbsp;&nbsp;&nbsp;&nbsp;"
     "<a href='mailto:saidhem@student.matnat.uio.no'><img src='https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png' width='40'></a>"
     "</div>",
@@ -60,7 +60,7 @@ with st.sidebar:
 )
 
 pages = {
-    "Lucy": "_pages/home.py",
+    "PortfolioPal": "_pages/home.py",
     "About Me": "_pages/About_Me.py",
     "Experience": "_pages/Experience.py",
     "Technical Skills": "_pages/technical_skills.py",

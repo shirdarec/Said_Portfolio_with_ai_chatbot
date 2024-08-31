@@ -4,9 +4,10 @@ left_column, right_column = st.columns([1, 1])
 
 with left_column:
     st.markdown("----")
-    st.image(r"images/lucy.png", width=500)
+    #st.image(r"images/PortfolioPal.png", width=500)
+    st.image("https://media.giphy.com/media/vwBWZO3fWPjV9ZVm2j/giphy.gif", use_column_width=True)
     st.markdown(
-        "### AI Powered Portfolio with chatbot - Lucy",
+        "### AI Powered Portfolio with chatbot - PortfolioPal",
     )
     st.markdown("June-2024")
     st.markdown(
@@ -18,45 +19,45 @@ with left_column:
     st.markdown(
         "<div style='text-align: justify'>"
         "<br>"
-        "<a href='https://rishiraj01.github.io/CTF/index.html'><img src='https://upload.wikimedia.org/wikipedia/commons/a/ad/Link-dynamic-premium.png' width='40'></a>"
+        "<a href='https://github.com/shirdarec?tab=repositories'><img src='https://upload.wikimedia.org/wikipedia/commons/a/ad/Link-dynamic-premium.png' width='40'></a>"
         "&nbsp;&nbsp;&nbsp;&nbsp;"
-        "<a href='https://github.com/Rishiraj01'><img src='https://upload.wikimedia.org/wikipedia/commons/2/24/Github_logo_svg.svg' width='40'></a>"
+        "<a href='https://github.com/shirdarec/Said_Portfolio_with_ai_chatbot'><img src='https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg' width='40'></a>"
         "</div>",
         unsafe_allow_html=True,
     )
     st.markdown("----")
 
-    st.image(r"images/lucy.png", use_column_width=True)
-    st.markdown("### Smart Dermatologist")
+    st.image(r"images/paper.jfif", use_column_width=True)
+    st.markdown("### Using Machine Learning to Find a Competitive-edge Among Elite Beachvolleyball Players")
     st.markdown("March-2023")
     st.markdown(
         "<div style='text-align: justify'>"
-        "This research proposes a simple, fast, and cost-effective method for identifying skin diseases and conditions using image processing. The approach involves analysing a digital image of the affected skin area and classifying the type of disease using image analysis and a pre-trained convolutional neural network. "
+        "The paper is about finding the difference between elite and semi-elite beach volleyball players using a convolutional neural network for classification. Accelerometer data was converted to spectrograms and then fed into the model for analysis. Local Interpretable Model-Agnostic Explanations (LIME) were utilized to interpret the results. These two approaches are a unique contribution to the sport of beach volleyball. With the skilful guidance of our supervisors, we are proud to have achieved significant results and to present our unique contribution to the field."
         "</div>",
         unsafe_allow_html=True,
     )
     st.markdown(
         "<div style='text-align: justify'>"
         "<br>"
-        "<a href='https://github.com/Rishiraj01'><img src='https://upload.wikimedia.org/wikipedia/commons/2/24/Github_logo_svg.svg' width='40'></a>"
+        "<a href='https://ecp.ep.liu.se/index.php/sais/article/view/999'><img src='https://upload.wikimedia.org/wikipedia/commons/a/ad/Link-dynamic-premium.png' width='40'></a>"
         "</div>",
         unsafe_allow_html=True,
     )
     st.markdown("----")
 
-    st.image(r"images/vm.png", use_column_width=True)
-    st.markdown("### Vulnerable VM - Rage")
+    st.image(r"images/project1.jpg", use_column_width=True)
+    st.markdown("### Developing and optimizing with backtesting")
     st.markdown("Jan-2023")
     st.markdown(
         "<div style='text-align: justify'>"
-        "Avarus CTF challenge leads to a vulnerable VM - Rage, participants engage with a VM hosted on Azure Cloud, employing their skills in privilege escalation, hashing algorithms, and OSINT to uncover the final key (Egg). This project tests players' cybersecurity knowledge and problem-solving abilities in a simulated environment. "
+        "I picked the Bollinger Bands strategy, using the version that Rayner Teo ( famous youtuber in the trading community) used. Using the yfinance library to get data from Yahoo Finance. Implemented the strategy with some tweakble paramteres. I used the plotly library to visualize the trade signals. Then I used backtesting library to further viusalize the results and the statistics. At last I made a table with all the different paramteres I tweaked to optimize the strategy "
         "</div>",
         unsafe_allow_html=True,
     )
     st.markdown(
         "<div style='text-align: justify'>"
         "<br>"
-        "<a href='https://www.noshitsecurity.com/ybrvyv'><img src='https://upload.wikimedia.org/wikipedia/commons/a/ad/Link-dynamic-premium.png' width='40'></a>"
+        "<a href='https://github.com/shirdarec/Said-Portfolio/blob/main/Project_I-main/BollingerBand_optimized.ipynb'><img src='https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg ' width='40'></a>"
         "&nbsp;&nbsp;&nbsp;&nbsp;"
         "</div>",
         unsafe_allow_html=True,
@@ -65,29 +66,29 @@ with left_column:
 with right_column:
     st.markdown("----")
     st.image(
-        r"images/tech-ctf.gif",
+        r"images/project2.jpg",
     )
-    st.markdown("### Capture the Flag Tech Adrishta '23")
+    st.markdown("### A simple tradingbot trading in Binance")
     st.markdown("March-2023")
     st.markdown(
         "<div style='text-align: justify'>"
-        "Designed and Organized a Capture the Flag event for Tech Adrishta 2023, the annual Tech fest of SMIT. The event was based on Digital Forensics, Hashing Algorithms, Symmetric and Public Key Cryptography, Steganography, with challenges ranging from basic to advanced levels."
+        "Connected my binance account and built a clinet API to stream the BTCUSDT currency pair data. Made a dataframe from the live data and transferred it to a sqlite database.Built a simple trend-following strategy.Used the Binance client to execute live trades"
         "</div>",
         unsafe_allow_html=True,
     )
     st.markdown(
         "<div style='text-align: justify'>"
         "<br>"
-        "<a href='https://rishiraj01.github.io/CTF/index.html'><img src='https://upload.wikimedia.org/wikipedia/commons/a/ad/Link-dynamic-premium.png' width='40'></a>"
+        "<a href='https://github.com/shirdarec?tab=repositories'><img src='https://upload.wikimedia.org/wikipedia/commons/a/ad/Link-dynamic-premium.png' width='40'></a>"
         "&nbsp;&nbsp;&nbsp;&nbsp;"
-        "<a href='https://github.com/Rishiraj01'><img src='https://upload.wikimedia.org/wikipedia/commons/2/24/Github_logo_svg.svg' width='40'></a>"
+        "<a href='https://github.com/shirdarec/Said-Portfolio/blob/main/Project_II-main/tradinbotTest2.ipynb'><img src='https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg' width='40'></a>"
         "</div>",
         unsafe_allow_html=True,
     )
     st.markdown("----")
 
-    st.image(r"images/avarus.png", use_column_width=True)
-    st.markdown("### Capture the Flag Avarus")
+    st.image(r"images/clusters.jpg", use_column_width=True)
+    st.markdown("### Modeling Electricity Consumption with Mobility Data : Identifying Opportunities for Localized Energy Markets")
     st.markdown("Dec-2022")
     st.markdown(
         "<div style='text-align: justify'>"
@@ -98,25 +99,8 @@ with right_column:
     st.markdown(
         "<div style='text-align: justify'>"
         "<br>"
-        "<a href='https://www.noshitsecurity.com/ybrvyv'><img src='https://upload.wikimedia.org/wikipedia/commons/a/ad/Link-dynamic-premium.png' width='40'></a>"
+        "<a href=' https://drive.google.com/file/d/1022YDSE-Aji2VxyFIEYrtXspFunTDeS-/view?usp=drive_link '><img src='https://upload.wikimedia.org/wikipedia/commons/a/ad/Link-dynamic-premium.png' width='40'></a>"
         "&nbsp;&nbsp;&nbsp;&nbsp;"
-        "</div>",
-        unsafe_allow_html=True,
-    )
-    st.markdown("----")
-    st.image(r"images/sast.png", use_column_width=True)
-    st.markdown("### Static Application Security Testing (SAST) Tool")
-    st.markdown("Jan-2023")
-    st.markdown(
-        "<div style='text-align: justify'>"
-        "Developed SAST, a tool created for the Dell Hackathon 2022, which scans codebases for vulnerabilities and generates detailed reports on code security and quality. This project enhances code safety and compliance through automated analysis and documentation. "
-        "</div>",
-        unsafe_allow_html=True,
-    )
-    st.markdown(
-        "<div style='text-align: justify'>"
-        "<br>"
-        "<a href='https://github.com/Rishiraj01'><img src='https://upload.wikimedia.org/wikipedia/commons/2/24/Github_logo_svg.svg' width='40'></a>"
         "</div>",
         unsafe_allow_html=True,
     )

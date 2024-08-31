@@ -24,12 +24,12 @@ certifications_data = {
     "Vendor": ["Microsoft", "Microsoft", "Udemy" ],
     "Series": ["PL-300T00-A: Microsoft Power BI Data Analyst", "AZ-900 Azure Fundamentals", "The Web Developer Bootcamp 2023"],
     "Awarded": ["Sept/2024", "Oct/2024", "Jan/2023"],
-    "Expiration": ["Aug/2025", "Never", "Never"]
+    "Expiration": ["Sept/2025", "Never", "Never"]
 }
 
 certifications_df = pd.DataFrame(certifications_data)
 st.table(certifications_df)
-#Badge Section
+"""#Badge Section
 st.header("Badges")
 col3, col4 = st.columns(2)
 
@@ -37,3 +37,4 @@ with col3:
     components.html(Azure_fundamentals, height=270, width=165)
 with col4:
     components.html(Azure_fundamentals, height=270, width=165)
+"""
