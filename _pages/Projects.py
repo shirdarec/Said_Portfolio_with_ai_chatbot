@@ -92,7 +92,7 @@ with right_column:
     st.markdown("Dec-2022")
     st.markdown(
         "<div style='text-align: justify'>"
-        "Designed and hosted a CTF where players use encryption, hashing, and validation to solve challenges. Participants are provided with RoE and scope, requiring them to apply OSINT, critical thinking, forensic analysis, and cryptographic operations to uncover the key."
+        "This thesis explores the application of advanced data analytics to improve electricity consumption forecasting and grid management in Oslo, Norway. Leveraging unconventional data streams such as public bike-sharing activity to provide a fresh perspective on energy dynamics. The nature of energy demand and supply in the renewable markets and why we want forecasts can give us opportunities to leverage arbitrage trading. This study utilizes an extensive dataset from Statnett and Oslo Bysykkel to model electricity consumption at the postal code level, integrating public bike-sharing usage patterns as a novel predictor of energy demand. By employing machine learning algorithms, including XGBoost and regularized linear regression. Furthermore, k-means and k-medoid clustering techniques are applied to analyze the spatial and temporal variations in energy usage and bike activity, helping to identify distinct behavioural clusters across different areas of the city. At last, finding potential anti-correlation between the clusters was also part of the analysis to identify investment opportunities using energy storage and release based on demand."
         "</div>",
         unsafe_allow_html=True,
     )
