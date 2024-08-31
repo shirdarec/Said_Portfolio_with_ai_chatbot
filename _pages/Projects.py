@@ -99,7 +99,7 @@ with right_column:
     st.markdown(
         "<div style='text-align: justify'>"
         "<br>"
-        "<a href=' https://drive.google.com/file/d/1022YDSE-Aji2VxyFIEYrtXspFunTDeS-/view?usp=drive_link '><img src='https://upload.wikimedia.org/wikipedia/commons/a/ad/Link-dynamic-premium.png' width='40'></a>"
+        "<a href=' https://drive.google.com/file/d/1YliIiiCB2kULOrjxdPiAG8HV1NcN-ywW/view?usp=sharing '><img src='https://upload.wikimedia.org/wikipedia/commons/a/ad/Link-dynamic-premium.png' width='40'></a>"
         "&nbsp;&nbsp;&nbsp;&nbsp;"
         "</div>",
         unsafe_allow_html=True,
