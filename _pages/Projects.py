@@ -45,7 +45,7 @@ with left_column:
     )
     st.markdown("----")
 
-    st.image(r"images/project1.jpg", use_column_width=True)
+    st.image(r"images/project1.png", use_column_width=True)
     st.markdown("### Developing and optimizing with backtesting")
     st.markdown("Jan-2023")
     st.markdown(
@@ -66,7 +66,7 @@ with left_column:
 with right_column:
     st.markdown("----")
     st.image(
-        r"images/project2.jpg",
+        r"images/project2.png",
     )
     st.markdown("### A simple tradingbot trading in Binance")
     st.markdown("March-2023")
@@ -87,7 +87,7 @@ with right_column:
     )
     st.markdown("----")
 
-    st.image(r"images/clusters.jpg", use_column_width=True)
+    st.image(r"images/clusters.png", use_column_width=True)
     st.markdown("### Modeling Electricity Consumption with Mobility Data : Identifying Opportunities for Localized Energy Markets")
     st.markdown("Dec-2022")
     st.markdown(
