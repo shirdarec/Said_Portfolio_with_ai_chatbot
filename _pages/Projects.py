@@ -9,7 +9,7 @@ with left_column:
     st.markdown(
         "### AI Powered Portfolio with chatbot - PortfolioPal",
     )
-    st.markdown("June-2024")
+    st.markdown("August-2024")
     st.markdown(
         "<div style='text-align: justify'>"
         "Personal portfolio featuring an AI-powered chatbot built with Streamlit, utilizing advanced prompt engineering techniques like few-shot training for an interactive and intelligent user experience."
@@ -29,7 +29,7 @@ with left_column:
 
     st.image(r"images/paper.jfif", use_column_width=True)
     st.markdown("### Using Machine Learning to Find a Competitive-edge Among Elite Beachvolleyball Players")
-    st.markdown("March-2023")
+    st.markdown("September 2023- june2024")
     st.markdown(
         "<div style='text-align: justify'>"
         "The paper is about finding the difference between elite and semi-elite beach volleyball players using a convolutional neural network for classification. Accelerometer data was converted to spectrograms and then fed into the model for analysis. Local Interpretable Model-Agnostic Explanations (LIME) were utilized to interpret the results. These two approaches are a unique contribution to the sport of beach volleyball. With the skilful guidance of our supervisors, we are proud to have achieved significant results and to present our unique contribution to the field."
