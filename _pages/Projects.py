@@ -99,7 +99,30 @@ with right_column:
     st.markdown(
         "<div style='text-align: justify'>"
         "<br>"
-        "<a href=' https://drive.google.com/file/d/1YliIiiCB2kULOrjxdPiAG8HV1NcN-ywW/view?usp=sharing '><img src='https://upload.wikimedia.org/wikipedia/commons/a/ad/Link-dynamic-premium.png' width='40'></a>"
+        "<a href='File "/home/adminuser/venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 534, in _run_script
+    exec(code, module.__dict__)
+File "/mount/src/said_portfolio_with_ai_chatbot/app.py", line 79, in <module>
+    exec(file.read())
+File "<string>", line 48, in <module>
+File "/home/adminuser/venv/lib/python3.12/site-packages/streamlit/runtime/metrics_util.py", line 396, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+File "/home/adminuser/venv/lib/python3.12/site-packages/streamlit/elements/image.py", line 165, in image
+    marshall_images(
+File "/home/adminuser/venv/lib/python3.12/site-packages/streamlit/elements/image.py", line 534, in marshall_images
+    proto_img.url = image_to_url(
+                    ^^^^^^^^^^^^^
+File "/home/adminuser/venv/lib/python3.12/site-packages/streamlit/elements/image.py", line 385, in image_to_url
+    url = runtime.get_instance().media_file_mgr.add(image, mimetype, image_id)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+File "/home/adminuser/venv/lib/python3.12/site-packages/streamlit/runtime/media_file_manager.py", line 222, in add
+    file_id = self._storage.load_and_get_id(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+File "/home/adminuser/venv/lib/python3.12/site-packages/streamlit/runtime/memory_media_file_storage.py", line 116, in load_and_get_id
+    file_data = self._read_file(path_or_data)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+File "/home/adminuser/venv/lib/python3.12/site-packages/streamlit/runtime/memory_media_file_storage.py", line 168, in _read_file
+    raise MediaFileStorageError(f"Error opening '{filename}'") from ex'><img src='https://upload.wikimedia.org/wikipedia/commons/a/ad/Link-dynamic-premium.png' width='40'></a>"
         "&nbsp;&nbsp;&nbsp;&nbsp;"
         "</div>",
         unsafe_allow_html=True,
