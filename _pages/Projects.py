@@ -6,11 +6,6 @@ left_column, right_column = st.columns([1, 1])
 with left_column:
   st.markdown("----")
   # Check if the image path is correct
-  try:
-      st.image(r"images/PortfolioPal.png", width=500)
-  except Exception as e:
-      st.error(f"Error loading image: {e}")
-
   st.image("https://media.giphy.com/media/vwBWZO3fWPjV9ZVm2j/giphy.gif", use_column_width=True)
   st.markdown("### AI Powered Portfolio with chatbot - PortfolioPal")
   st.markdown("August-2024")
