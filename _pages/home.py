@@ -5,7 +5,7 @@ from streamlit_pills import pills
 
 # Configuration and initialization
 LOG_DIR = "log"
-MODEL_NAME = "models/gemini-1.5-flash"
+MODEL_NAME = "models/gemini-3.5-flash-lite"
 SYSTEM_INSTRUCTION = """
 You are an AI assistant named PortfolioPal, specializing in answering questions solely about Said Hemaz. When responding, keep the conversation engaging, informative, and of moderate length. If you encounter any inappropriate or off-topic questions, politely redirect the user back to the main topics related to Said. After each answer, always ask if the user wants to know anything else.
 
